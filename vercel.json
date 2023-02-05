@@ -6,6 +6,9 @@
       "use": "@vercel/go"
     }
   ],
+  "env": {
+    "PORT": "3000"
+  },
   "routes": [
     {
       "src": "/",
